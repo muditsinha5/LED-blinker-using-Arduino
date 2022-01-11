@@ -1,0 +1,14 @@
+void setup() {// put your setup code here, to run once:
+  pinMode(13,OUTPUT);
+
+}
+
+void loop() { // put your main code here, to run repeatedly:
+ digitalWrite(13,HIGH);
+ delay(250);
+ digitalWrite(13,LOW);
+ delay(250);             
+
+}
+// If you are using this code then make sure your LED should be connected to pin number 13 of your Arduino board,
+//If you want to use any other pin then you can change the pin number 13 to any other pin number of your choice.
